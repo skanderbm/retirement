@@ -1,0 +1,7 @@
+pandas
+dash
+dash-bootstrap-components
+
+
+gevent
+gunicorn
