@@ -10,6 +10,7 @@ add = lambda delta: lambda x: x+delta
 multiply = lambda delta: lambda x: float(x)*(1+delta)
 
 app = Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 old_young_image = 'https://media.istockphoto.com/id/523749933/photo/age-is-mind-over-matter.jpg?s=612x612&w=0&k=20&c=g5wSEodREftE2nE3oo1zjK1wpFMKWscb5N5X9oVFvjw='
 
