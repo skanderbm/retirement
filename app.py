@@ -82,8 +82,8 @@ app.layout = html.Div([
     first_row,
     second_row,
     html.Div(dbc.Col([
-                        dbc.Row(dcc.Graph(id='graph-content'),width=6),
-                        dbc.Row(dcc.Graph(id='graph-misery'),width=6)
+                        dbc.Row(dcc.Graph(id='graph-content')),
+                        dbc.Row(dcc.Graph(id='graph-misery'))
                       ]))
 ])
 
