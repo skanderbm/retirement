@@ -81,9 +81,9 @@ app.layout = html.Div([
     html.P('Saving for retirement is important. This simulator allows you to plan ahead and avoid misery', style={'textAlign':'center'}),
     first_row,
     second_row,
-    html.Div(dbc.Row([
-                        dbc.Col(dcc.Graph(id='graph-content'),width=6),
-                        dbc.Col(dcc.Graph(id='graph-misery'),width=6)
+    html.Div(dbc.Col([
+                        dbc.Row(dcc.Graph(id='graph-content'),width=6),
+                        dbc.Row(dcc.Graph(id='graph-misery'),width=6)
                       ]))
 ])
 
